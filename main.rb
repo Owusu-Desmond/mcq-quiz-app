@@ -33,10 +33,7 @@ def play_again(questions)
     puts 'Do you want to play again? (y/n)'
     answer = gets.chomp.strip
   end
-  if answer == 'y'
-    run_quiz(questions)
-    play_again
-  end
+  run_quiz(questions) unless answer == 'n'
 end
 
 run_quiz(questions)
