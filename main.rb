@@ -25,4 +25,19 @@ def run_quiz(questions)
   puts "You got #{score} out of #{questions.length}"
 end
 
+def play_again(questions)
+  puts 'Do you want to play again? (y/n)'
+  answer = gets.strip.downcase
+  while answer != 'y' && answer != 'n'
+    puts 'The answer you provide does not match any of the choices'
+    puts 'Do you want to play again? (y/n)'
+    answer = gets.chomp.strip
+  end
+  if answer == 'y'
+    run_quiz(questions)
+    play_again
+  end
+end
+
 run_quiz(questions)
+play_again(questions)
