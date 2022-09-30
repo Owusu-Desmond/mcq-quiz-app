@@ -2,7 +2,7 @@ require_relative 'question'
 
 q1 = "Which of the following is a data type in Ruby?\n(a) String\n(b) Float\n(c) All of the above\n"
 q2 = "Which of the following is not a programming language?\n(a) C++\n(b) B#\n(c) R"
-q3 = "Is ruby on rails a web development framework or not\n(a) True\n(b) False\n(c) None"
+q3 = "Is ruby on rails a web development framework?\n(a) True\n(b) False\n(c) None"
 
 questions = [
   Question.new(q1, 'c'),
