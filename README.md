@@ -1,11 +1,16 @@
 # mcq-quiz-app
 
-Multiple choice question(mcq) quiz app a program that will ask a user all pre-defined questions and will give the user a score at the end of the quiz. The program will keep asking a user to provide an answer if the provided answer for a specific question do not match any option of the question. The program will also give the user the option to play again after the quiz is over. 
+Multiple choice question(mcq) quiz app a program that will ask a user all pre-defined questions and will give the user a score at the end of the quiz. The program will keep asking a user to provide an answer if the provided answer for a specific question does not match any option of the question. The program will also give the user the option to play again after the quiz is over. 
 
 
 ## Built With
 
 - Ruby
+
+## Screenshot of the app
+
+![Screenshot from 2022-09-30 00-58-41](https://user-images.githubusercontent.com/92303891/193167915-b3698752-4c07-4689-af17-8f857bd9bf03.png)
+
 
 ## Getting Started
 
